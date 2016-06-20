@@ -1,2 +1,2 @@
 all:
-	clang main.c -o orbit-calculator
+	clang main.c -o orbit-calculator -lm

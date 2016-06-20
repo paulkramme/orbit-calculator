@@ -4,13 +4,13 @@
 
 int main(int argc, char *argv[])
 {
-     if(argc != 5)
+     if(argc != 3)
      {
-          printf("USAGE: %s arg1 arg2 arg3 arg4\n", argv[0]);
+          printf("USAGE: %s orbital_radius mcentral\n", argv[0]);
      }
      else
      {
-          orbit(atoi(argv[1]), atoi(argv[2]), atoi(argv[3]), atoi(argv[4]));
+          orbital_speed(atoi(argv[1]), atoi(argv[2]));
      }
      return 0;
 }
