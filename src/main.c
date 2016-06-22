@@ -11,17 +11,17 @@ int main(int argc, char *argv[])
      }
      else
      {
-          if(strcmp(argv[1], "version"))
+          if(strcmp(argv[1], "version") == 0)
           {
                printf("HELLOWORLD!\n");
           }
-          else if(strcmp(argv[1], "speed"))
+          else if(strcmp(argv[1], "speed") == 0)
           {
                orbital_speed(atoi(argv[1]), atoi(argv[2]));
           }
-          else if(strcmp(argv[1], "whatever"))
+          else if(strcmp(argv[1], "whatever") == 0)
           {
-               printf("WHATEVER!");
+               printf("WHATEVER!\n");
           }
           else
           {
